@@ -1,4 +1,99 @@
-h1 {color:blueviolet;
-font-size: 48px;}
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {background-color: #FFF8EC;}
 
-.app {background-color: aquamarine;}
+#city {
+    display: block;
+    color:#546B41;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 20px 10px 20px 25px;}
+
+form {display: block;
+    align: center;
+  font-family: "Michroma";
+  padding:30px 10px 30px 10px;
+  }
+
+#search-input {
+  background-color:#FFF8EC;
+  border: none;
+  color:#546B41;
+  font-size: 12px;
+  padding: 17px;
+  width: 75%;
+  border-radius: 6px;
+}
+#search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #99AD7A;
+  color: #546B41;
+  border: none;
+  padding: 17px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.app {display:block;
+    align: 0 auto;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #DCCCAC;
+    border-radius: 8px;
+    font-family: "Michroma";
+    font-size: 12px;}
+
+  .weather-app {display: flex;
+  justify-content: space-between;
+margin: 5px 10px 5px 10px;}
+
+.weather-app-details {
+  display: block;
+  margin: 16px 0 16px 5px;
+  font-size: 14px;
+  color:#000;
+  line-height: 24px;
+  font-weight: 500;
+}
+.weather-app-details strong {
+  color: #546B41;
+}
+.weather-app-temp-container {display: flex;
+  justify-content: space-between;
+}
+
+#icon {position: relative;
+  top: 1px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+#temp {position: relative;
+  top:-8px;
+  font-size: 55px;
+  color: #546B41;
+  }
+
+#unit {position: relative;
+  top: 3.5px;
+  font-size: 18px;
+  color: #546B41;}
+
+footer {border-top: 1px solid #0000;
+text-align: center;
+font-size: 11px;
+color: #000;
+display: block;
+padding: 30px 5px 30px 5px;}
+
+#me {color: #546B41;
+text-decoration: none;}
+#GitHub {color: #546B41;
+text-decoration: none;}
+#Netlify {color: #546B41;
+text-decoration: none;}

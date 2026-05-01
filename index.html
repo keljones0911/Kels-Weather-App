@@ -3,39 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kel's Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Michroma&display=swap" rel="stylesheet">
     <link rel="Stylesheet" href="Src/style.css"/>
   </head>
   <div class="app">
   <body>
     <header>
         <form>
-            <input type="search" placeholder="Enter a city" required/>
-            <input type="submit" value="Search"/>
+            <input type="search" placeholder="Enter a city" required id="search-input"/>
+            <input type="submit" value="Search" id="search-button"/>
         </form>
     </header>
-    <h1>London</h1>
-    <p>
-    Thursday 16:35, Scattered clouds</br>
-    Humidity: 66%, Wind 3.13 km/h
+       <h1 class="weather-app-city" id="city">London</h1>
+        <div class="weather-app">
+    <p class="weather-app-details">
+    <span id="time">Thursday 16:35,</span>
+    <span id="description"> Scattered clouds</span>
+    </br>
+    Humidity:
+    <strong id="humidity">66%,</strong>
+    Wind:
+    <strong id="wind">3.13 km/h</strong>
     </p>
-    <div>☀️ 18°C</div>
+    <div class="weather-app-temp-container">
+      <div id="icon">☀️</div>
+    <div class="weather-app-temp" id="temp">18</div>
+    <div class="weather-app-unit" id="unit">°C</div>
+    </div>
+    </div>
+</body>
   </body>
   <footer>
     This project was coded by
     <a
       href="https://avatars.githubusercontent.com/u/268559905?v=4&size=64"
-      target="_blank"
+      target="_blank"id="me"
       >Kel Jones</a
     >
     is open sourced on
     <a
       href="C:\Users\speed\Documents\KELS STUFF\SheCodes\GitHub\Kels Weather App\Kels Weather App"
-      target="_blank"
+      target="_blank"id="GitHub"
       >GitHub</a
     >
     and hosted on
-    <a href="https://kelsweatherapp.netlify.app/" target="_blank">Netlify</a>
+    <a href="https://kelsweatherapp.netlify.app/" target="_blank" id="Netlify">Netlify</a>
   </footer>
   </div>
 </html>
